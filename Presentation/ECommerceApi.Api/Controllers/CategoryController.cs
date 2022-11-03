@@ -39,7 +39,11 @@ namespace ECommerceApi.Api.Controllers
             }
             
         }
-
+        /// <summary>
+        /// Get all categories.
+        /// </summary>
+        /// <param name="GetCategoriesQuery"></param>
+        /// <returns></returns>
         [HttpGet("AllCategory")]
         public async Task<IActionResult> AllCategory(GetCategoriesQueryRequest GetCategoriesQuery)
         {
