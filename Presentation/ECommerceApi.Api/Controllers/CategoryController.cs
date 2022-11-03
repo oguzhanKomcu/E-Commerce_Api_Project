@@ -40,7 +40,7 @@ namespace ECommerceApi.Api.Controllers
             
         }
         /// <summary>
-        /// Get all categories.
+        /// Get all categoriess.
         /// </summary>
         /// <param name="GetCategoriesQuery"></param>
         /// <returns></returns>
